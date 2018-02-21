@@ -1,4 +1,4 @@
-package com.cysmic.onehourjavachallenge;
+package com.cysmic.onehourchallenge;
 
 import org.junit.Test;
 

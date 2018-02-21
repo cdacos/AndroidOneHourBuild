@@ -1,4 +1,4 @@
-package com.cysmic.onehourjavachallenge;
+package com.cysmic.onehourchallenge;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -28,7 +28,7 @@ public class CommitsListAdapter extends RecyclerView.Adapter<CommitsListViewHold
   public void onBindViewHolder(CommitsListViewHolder holder, int position) {
     if (commits != null && position < commits.size()) {
       Commit commit = commits.get(position);
-      holder.sha.setText(commit.sha);
+      holder.sha.setText(holder.sha.getResources().getString(R.string.commit_sha_format, commit.sha));
       holder.author.setText(commit.author);
       holder.message.setText(commit.message);
     }

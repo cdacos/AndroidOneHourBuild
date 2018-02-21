@@ -1,4 +1,4 @@
-package com.cysmic.onehourjavachallenge;
+package com.cysmic.onehourchallenge;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

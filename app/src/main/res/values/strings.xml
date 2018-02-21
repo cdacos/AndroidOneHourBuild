@@ -1,3 +1,4 @@
 <resources>
-  <string name="app_name">One Hour Java Challenge</string>
+  <string name="app_name">One Hour Challenge</string>
+  <string name="commit_sha_format" formatted="true">Commit: %s</string>
 </resources>

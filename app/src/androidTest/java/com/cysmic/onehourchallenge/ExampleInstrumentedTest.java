@@ -1,4 +1,4 @@
-package com.cysmic.onehourjavachallenge;
+package com.cysmic.onehourchallenge;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     // Context of the app under test.
     Context appContext = InstrumentationRegistry.getTargetContext();
 
-    assertEquals("com.cysmic.onehourjavachallenge", appContext.getPackageName());
+    assertEquals("com.cysmic.onehourchallenge", appContext.getPackageName());
   }
 }

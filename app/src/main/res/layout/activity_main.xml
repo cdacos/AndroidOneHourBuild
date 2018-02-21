@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.cysmic.onehourjavachallenge.MainActivity">
+    tools:context="com.cysmic.onehourchallenge.MainActivity">
 
   <android.support.v7.widget.RecyclerView
       android:id="@+id/commits_list"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content" />
+      android:layout_height="wrap_content"
+      android:background="#000000" />
 
 </LinearLayout>

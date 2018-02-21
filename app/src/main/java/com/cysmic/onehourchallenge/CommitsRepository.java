@@ -1,6 +1,5 @@
-package com.cysmic.onehourjavachallenge;
+package com.cysmic.onehourchallenge;
 
-import android.net.Uri;
 import android.os.AsyncTask;
 import android.util.Log;
 
